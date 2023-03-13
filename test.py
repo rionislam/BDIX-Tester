@@ -14,7 +14,7 @@ for i in range(0, length):
         response.close()
     if status == 200:
         time = response.elapsed.total_seconds()/1000
-        size = ((len(response.text))/1000000)/8
+        size = (((len(response.text))/1000000)/8)/8
         speed = size/time
         print (f"Host: {host} AND Speed: {format(speed, '.2f') }MBps\n")
 
