@@ -2,6 +2,8 @@
 
 # BDIX Tester
 
+[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/rionislam/BDIX-Tester/releases/tag/v1.0.1)
+
 Check the available BDIX Ftp servers for you easily
 
 ## Use
@@ -22,3 +24,5 @@ Check the available BDIX Ftp servers for you easily
   ```
 
 - Just wait and you will see the avaible servers for you.
+
+- Press **CTRL**+**C** to stop the scanning
